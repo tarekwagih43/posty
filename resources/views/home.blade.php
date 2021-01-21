@@ -61,7 +61,7 @@
 
 						<div class="flex">
 								<div class="flex-shrink-0">
-										<div class="flex items-center justify-center rounded-md text-white ">
+										<div class="flex items-center justify-center rounded-md text-white w-40">
 												<img src="{{ asset($service->image) }}" alt="{{ $service->title }}" class="object-fill h-40 w-full">
 										</div>
 								</div>
