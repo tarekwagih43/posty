@@ -509,8 +509,8 @@ class ComposerStaticInitab7fd778c84c2f6eb136923bff30cc75
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/stub/src',
-            1 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
         ),
         'Carbon\\' => 
         array (
