@@ -63,7 +63,7 @@ class ServiceController extends Controller
 
         // redirect back
         return back()
-                        ->with('success', 'Updated Succesfully');
+                ->with('success', 'Updated Succesfully');
     }
 
     public function destroy(Service $service)
