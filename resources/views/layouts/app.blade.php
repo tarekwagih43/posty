@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour Guide</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    <script src="{{ asset('js/app.js') }}"></script>
+
 </head>
 <body class="bg-gray-200">
 
@@ -46,7 +50,7 @@
 </nav>
 
 @yield('content')
-
+@yield('script')
     <!-- Footer -->
     <div class="bg-gray-800">
         <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
@@ -65,4 +69,5 @@
         </div>
     </div>
 </body>
+
 </html>

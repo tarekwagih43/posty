@@ -17,7 +17,7 @@ Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::get('/services', [ServiceController::class, 'index'])->name('services');
+Route::get('/services', [ServicesController::class, 'index'])->name('services');
 
 // Admin Area Route
 Route::get('/inbox', [InboxController::class, 'index'])->name('inbox');
