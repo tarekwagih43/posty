@@ -29,7 +29,6 @@
     <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
   </div>
 
-
 <?php $__env->stopSection(); ?>
 
 
@@ -71,8 +70,6 @@
     clearInterval(xx);
     setTimeout(loopSlider(),time);
     }
-
-
 
     function sliderButton1(){
 

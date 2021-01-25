@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour Guide</title>
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
     <script src="<?php echo e(asset('js/app.js')); ?>"></script>
 
